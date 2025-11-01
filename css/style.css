@@ -371,6 +371,9 @@ content: "";
   }
 }
 @media (max-width: 690px){
+  .hero_image::before{
+      height: 50%
+  }
   .hero{
     flex-direction: column;
     overflow: hidden;
