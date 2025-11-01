@@ -556,6 +556,9 @@ content: "";
     height: 400px;
     background-size: 140%;
   }
+  .works_right:hover{
+    background-size: 160%;
+  }
   .works_left{
     width: 350px;
     height: 400px;
@@ -824,6 +827,9 @@ content: "";
   .tarif_title{
     font-size: 38px;
   }
+  .tarif_item{
+    width: 300px;
+  }
 }
 
 
@@ -1077,7 +1083,11 @@ content: "";
     width: 90%;
   }
 }
-
+@media (max-width: 460px) {
+  .faq__header h2 {
+    font-size: 44px;
+  }
+}
 
 
 /* magnit */
