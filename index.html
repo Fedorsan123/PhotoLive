@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PhotoLive_AI</title>
+</head>
+<body>
+    <header class="header">
+  <nav class="header_menu">
+    <ul class="header_menu-list">
+      <li class="menu_item"><a href="#">Оживить фото</a></li>
+      <li class="menu_item"><a href="#main">Главная</a></li>
+      <li class="menu_item"><a href="#tarif">Тарифы</a></li>
+      <li class="menu_item"><a href="#footer">Контакты</a></li>
+      <li class="menu_item"><a href="#faq">Вопросы</a></li>
+    </ul>
+  </nav>
+  <button class="header_menu-btn">Войти</button>
+
+  <!-- бургер -->
+  <button class="burger" id="burger" aria-label="Открыть меню">
+    <span></span>
+  </button>
+
+  <!-- мобильное меню -->
+  <div class="mobile_menu" id="mobileMenu">
+    <button class="mobile_close" id="closeMenu" aria-label="Закрыть меню">✕</button>
+    <a href="#">Оживить фото</a>
+    <a href="#main">Главная</a>
+    <a href="#tarif">Тарифы</a>
+    <a href="#footer">Контакты</a>
+    <a href="#faq">Вопросы</a>
+    <a href="#" class="mobile_login">Войти</a>
+  </div>
+</header>
+    <main>
+        <article class="hero" id="main">
+            <div class="hero_main">
+                <h1 class="hero_main-title"><span>ОЖИВИ ФОТО</span> ОНЛАЙН С ПОМОЩЬЮ НЕЙРОСЕТИ</h1>
+                <p class="hero_main-text">Нейросеть вдохнёт жизнь даже в старые семейные кадры, позволяя по-новому увидеть дорогие сердцу моменты и снова ощутить атмосферу прошлого</p>
+                <button href="dashboard.html" class="btn hero_main-btn">Оживить фото</button>
+            </div>
+            <figure class="hero_image">
+                <img src="img/Фото люди.png" alt="Семейное фото, пример работы сервиса" class="img_family">
+                <img class="hero__bg" src="img/Фото фон.png" alt="Фон страницы">
+            </figure>
+            
+        </article>
+        <section class="works">
+            <h2 class="works_title"><span>Наши</span> работы</h2>
+            <p class="works_text">Откройте для себя магию AI-технологий. Современные алгоритмы создают уникальные и выразительные результаты, превращая каждое фото в настоящее произведение искусства</p>
+            <div class="works_content">
+                <div class="works_left">
+                    <div class="works_left-tt">
+                        <h3 class="works_left-title">Оживить фото нейросетью <span>быстро и бесплатно</span></h3>
+                        <p class="works_left-text">С помощью продвинутых алгоритмов происходит анимирование изображений, фотографий и портретов, где каждое движение глаз, улыбка или поворот головы выглядят реалистично</p>
+                    </div>
+                    <button class="works_btn">Как это работает?</button>
+                </div>
+                <div class="works_right">
+                    <img src="img/Feather Icon.svg" alt="" class="works_icon">
+                </div>
+            </div>
+            <div class="works_content works_bottom">
+                <div class="works_left">
+                    <div class="works_left-tt">
+                        <h3 class="works_left-title">Качество <span>и реалистичность</span></h3>
+                        <p class="works_left-text">Мы спользуем передовые технологии ИИ для оживления фотографий, обеспечивая высокое качество генерации. Оживите семейные архивы и покажите детям и родным, как выглядели бабушки и дедушки. Это поможет сохранить семейные воспоминания на долгие годы.</p>
+                    </div>
+                    <button class="works_btn">Оживить фото</button>
+                </div>
+                <div class="works_right">
+                    <img src="img/Feather Icon.svg" alt="" class="works_icon">
+                </div>
+            </div>
+        </section>
+        <section class="steps">
+            <div class="steps_container">
+                <header class="steps_header">
+                    <h3 class="steps_title">Всего 3 простых шага</h3>
+                    <p class="steps_text">Оживите ваши фотографии за считанные минуты. Никаких сложных настроек — просто загрузите портрет и получите живое видео.</p>
+                </header>
+                <ol class="steps_list">
+                    <li class="steps_item">
+                        <header class="steps_item-header">
+                            <img src="img/Загрузи фото иконка.svg" alt="" class="item_img">
+                            <span class="steps_num">1 шаг</span>
+                        </header>
+                            <h4 class="item_title">Загрузите фото</h4>
+                            <p class="item_text">Просто перетащите или выберите портретное фото с вашего устройства. Поддерживаем JPG, PNG и другие популярные форматы</p>
+                    </li>
+                    <li class="steps_item">
+                        <header class="steps_item-header">
+                            <img src="img/Anguilla.svg" alt="" class="item_img">
+                            <span class="steps_num">2 шаг</span>
+                        </header>
+                            <h4 class="item_title">AI оживит портрет</h4>
+                            <p class="item_text">Наши алгоритмы проанализируют лицо и создадут естественную анимацию — моргание, улыбка, движение головы</p>
+                    </li>
+                    <li class="steps_item">
+                        <header class="steps_item-header">
+                            <img src="img/Скачать видео иконка.svg" alt="" class="item_img">
+                            <span class="steps_num">3 шаг</span>
+                        </header>
+                            <h4 class="item_title">Скачайте видео</h4>
+                            <p class="item_text">Получите живой портрет в формате MP4. Результат будет готов за минуты и доступен для скачивания</p>
+                    </li>
+                </ol>
+                <img src="img/Изображение фон.png" alt="Семейный дом на фоне" class="steps_img">
+            </div>
+        </section>
+        <section class="tarif" id="tarif">
+                <h3 class="tarif_title">Выберите подходящий тариф <span>под ваши цели</span></h3>
+                <ol class="tarif_list">
+                    <li class="tarif_item">
+                        <h4 class="tarif_item-title">Базовый</h4>
+                        <p class="tarif_item-cost"><span>499₽</span>/ пакет</p>
+                        <ul class="tarif_item-list">
+                            <li class="tarif_i-list-i">10 оживлений фото</li>
+                            <li class="tarif_i-list-i">Высокое качество восстановления</li>
+                            <li class="tarif_i-list-i">Приоритетная обработка</li>
+                        </ul>
+                        <button class="tarif_btn">Приобрести</button>
+                    </li>
+                    <li class="tarif_item tarif_item_img">
+                        <div class="tarif_popular">
+                            <span class="tarif_span">популярный</span>
+                            <h4 class="tarif_item-title">Стандарт</h4>
+                        </div>
+                        <p class="tarif_item-cost"><span>1499₽</span>/ пакет</p>
+                        <ul class="tarif_item-list">
+                            <li class="tarif_i-list-i">30 оживлений фото</li>
+                            <li class="tarif_i-list-i">Максимальное качество</li>
+                            <li class="tarif_i-list-i">Мгновенная обработка</li>
+                        </ul>
+                        <button class="tarif_btn">Приобрести</button>
+                    </li>
+                    <li class="tarif_item">
+                        <h4 class="tarif_item-title">Расширенный</h4>
+                        <p class="tarif_item-cost"><span>4499₽</span>/ пакет</p>
+                        <ul class="tarif_item-list">
+                            <li class="tarif_i-list-i">100 оживлений фото</li>
+                            <li class="tarif_i-list-i">Максимальное качество</li>
+                            <li class="tarif_i-list-i">Мгновенная обработка</li>
+                        </ul>
+                        <button class="tarif_btn">Приобрести</button>
+                    </li>
+                </ol>
+        </section>
+<section class="steps">
+  <div class="steps_container">
+    <header class="steps_header">
+      <h3 class="steps_title">Отзывы</h3>
+      <p class="steps_text">
+        Довольных клиентов, которые уже восстановили свои воспоминания с помощью нашего AI
+      </p>
+    </header>
+
+    <div class="review_slider">
+      <ol class="review_list" id="reviewList">
+        <li class="review_item item_1">
+          <h2 class="review_item-title">Ситников Александр Сергеевич</h2>
+          <p class="review_item-text">Оживление исторических портретов для музейной экспозиции произвело фурор среди посетителей. Теперь регулярно использую сервис</p>
+          <span class="review_date">21 сентября 2025 года</span>
+        </li>
+        <li class="review_item item_2">
+          <h2 class="review_item-title">Денисова Валерия Игоревна</h2>
+          <p class="review_item-text">AI-технологии действительно творят чудеса. Фото прадедушки 1940-х годов теперь как будто снято вчера, а оживление просто магия!</p>
+          <span class="review_date">15 сентября 2025 года</span>
+        </li>
+        <li class="review_item item_3">
+          <h2 class="review_item-title">Никуленко Алексей Владимирович</h2>
+          <p class="review_item-text">Отличный сервис, очень прост в использовании. Оживил портрет бабушки 1960-х, сюрприз произвел прекрасное впечатление!</p>
+          <span class="review_date">26 августа 2025 года</span>
+        </li>
+        <li class="review_item item_4">
+          <h2 class="review_item-title">Иванов Николай Максимович</h2>
+          <p class="review_item-text">Давно хотел оживить фото, видел, как это делают мои знакомые. Всё оказалось просто, спасибо разработчикам!</p>
+          <span class="review_date">3 августа 2025 года</span>
+        </li>
+        <li class="review_item item_5">
+          <h2 class="review_item-title">Стрешкова Алена Ивановна</h2>
+          <p class="review_item-text">Сделала сюрприз маме на юбилей, оживила её старые фотографии, теперь хочу заняться всем семейным архивом — лучший сервис!</p>
+          <span class="review_date">8 июня 2025 года</span>
+        </li>
+      </ol>
+      <img src="img/Изображение.png" alt="" srcset="" class="review_mountain">
+      <button class="next_arrow" id="nextBtn" aria-label="Следующий отзыв"></button>
+    </div>
+  </div>
+</section>
+<section class="faq" id="faq" aria-labelledby="faq-title">
+  <div class="container">
+    <header class="faq__header">
+      <h2 id="faq-title">Часто задаваемые <span>вопросы</span></h2>
+      <p class="faq__subtitle">
+        Не нашли ответ на свой вопрос? Свяжитесь с нашей службой поддержки — мы всегда готовы помочь!
+      </p>
+    </header>
+
+    <div class="faq__list">
+      <details class="faq__item">
+        <summary class="faq__question">Какие форматы я могу загружать?</summary>
+        <p class="faq__answer">
+          Поддерживаются JPG, PNG и WEBP — наиболее популярные форматы изображений. Размер не должен превышать 50 МБ.
+        </p>
+      </details>
+
+      <details class="faq__item" open>
+        <summary class="faq__question">Сколько времени занимает обработка фотографий?</summary>
+        <p class="faq__answer">
+          Обычно обработка занимает от 1 до 3 минут в зависимости от размера изображения и сложности портрета.
+          В часы пик время может увеличиваться до 10 минут. Вы получите уведомление, когда результат будет готов.
+        </p>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__question">Как быстро я получу результат?</summary>
+        <p class="faq__answer">
+          Готовое видео появляется сразу после завершения обработки. Вы сможете скачать его в разделе «Мои работы».
+        </p>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__question">Как оплатить услуги?</summary>
+        <p class="faq__answer">
+          Вы можете оплатить токены любым удобным способом: банковской картой, через СБП или с помощью кошелька YooMoney.
+        </p>
+      </details>
+
+      <details class="faq__item">
+        <summary class="faq__question">Как связаться с поддержкой?</summary>
+        <p class="faq__answer">
+          Напишите нам на почту <a href="mailto:admin@yandex.ru">admin@yandex.ru</a> — обычно мы отвечаем в течение суток.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+<section class="magnit">
+    <article class="magnit_content">
+        <h3 class="magnit_title">Готовы оживить портреты?</h3>
+        <p class="magnit_text">Профессиональная AI-реставрация фотографий. Восстанавливаем ваши драгоценные воспоминания с помощью передовых технологий машинного обучения</p>
+        <button class="magnit_btn">Попробовать оживление</button>
+    </article>
+    <img src="img/footer.png" alt="Город на фоне подвала сайта" class="magnit_bg">
+</section>
+
+    </main>
+<footer class="footer" id="footer">
+  <div class="container footer__top">
+    <div class="footer__col footer__contacts">
+      <p class="footer__label">E-mail:</p>
+      <a href="mailto:admin@yandex.ru" class="footer__mail">admin@yandex.ru</a>
+    </div>
+
+    <nav class="footer__col footer__nav" aria-label="Основное меню в футере">
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Тарифы</a></li>
+        <li><a href="#">Вопросы</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Отзывы</a></li>
+        <li><a href="#">Как это работает?</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer__col footer__info">
+      <p>ИНН: 888888888</p>
+      <p>ОГРНИП: 888888888</p>
+    </div>
+  </div>
+
+  <hr class="footer__divider">
+
+  <div class="container footer__bottom">
+    <p class="footer__copy">© 2025. Все права защищены</p>
+    <div class="footer__links">
+      <a href="#">Политика конфиденциальности</a>
+      <a href="#">Условия использования</a>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
