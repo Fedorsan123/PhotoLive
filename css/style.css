@@ -559,6 +559,9 @@ content: "";
     height: 400px;
     background-size: 140%;
   }
+  .works_right:hover{
+    background-size: 160%;
+  }
   .works_left{
     width: 350px;
     height: 400px;
