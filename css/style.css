@@ -371,6 +371,9 @@ content: "";
   }
 }
 @media (max-width: 690px){
+  .hero_image::before{
+      height: 50%
+  }
   .hero{
     flex-direction: column;
     overflow: hidden;
@@ -812,6 +815,7 @@ content: "";
 }
 @media (max-width: 1350px){
   .tarif_list{
+    width: 90%;
     flex-wrap: wrap;
   }
 }
